@@ -8,9 +8,13 @@
 #gif {
     position: absolute;
     top: 10%;
-    left: -10px; /* Initial position, adjust as needed */
+    left: 30px; /* Initial position, adjust as needed */
     transform: translateY(-40%);
     transition: all 12s ease; /* Adjust duration as needed */
     height: 80px;
     width: 80px;
+    -webkit-transform: scaleX(-0.9);
+    -moz-transform: scaleX(-0.9);
+    -o-transform: scaleX(-1.1);
+     transform: scaleX(-1.1);
 }
